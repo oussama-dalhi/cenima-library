@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { MovieProvider } from "./contexts/MovieContext";
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
 import "./App.css";
@@ -6,7 +7,7 @@ import Favorites from "./pages/Favorites";
 
 function App() {
   return (
-    <div className="main-content">
+    <MovieProvider>
       <NavBar />
       <main>
         <Routes>
@@ -14,7 +15,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />}></Route>
         </Routes>
       </main>
-    </div>
+    </MovieProvider>
   );
 }
 
