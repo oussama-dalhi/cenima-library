@@ -1,18 +1,91 @@
-# React + Vite
+# Cinema Library 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for discovering and searching movies using The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Browse popular movies
+* Search movies by title
+* Responsive movie grid layout
+* Movie cards with posters and details
+* Fast and modern React interface
+* Powered by the TMDB API
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* React
+* JavaScript (ES6+)
+* CSS
+* TMDB API
+* Vite
 
-Note: This will impact Vite dev & build performances.
+## Screenshots
 
-## Expanding the ESLint configuration
+Add screenshots of your application here.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/cinema-library.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd cinema-library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_API_KEY=your_tmdb_api_key
+```
+
+Get your API key from:
+
+https://www.themoviedb.org/
+
+
+```
+
+## Learning Outcomes
+
+This project helped me practice:
+
+* React Hooks (`useState`, `useEffect`)
+* API integration with Fetch
+* Async/await patterns
+* Component-based architecture
+* State management
+* Responsive UI design
+
+## Future Improvements
+
+* Favorites / Watchlist functionality
+* Movie details page
+* Genre filtering
+
+## Acknowledgements
+
+Movie data provided by The Movie Database (TMDB).
+
+## License
+
+This project is open source and available under the MIT License.
+
